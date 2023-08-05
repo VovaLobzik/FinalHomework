@@ -27,6 +27,8 @@
         android:layout_height="65dp"
         android:layout_marginTop="16dp"
         android:hint="@string/editHint"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:gravity="center"
         android:textSize="30sp"
         android:background="@drawable/edit_text"

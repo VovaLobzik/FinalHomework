@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                     switch (editOperator(view)) { // вычисления
                         case "result": // если введён оператор "равно"
-                            if (counter == 0) { // при вводе первого сисла - выводится само первое число
+                            if (counter == 0) { // при вводе первого числа - выводится само первое число
                                 textInOut.setText(numBuffer);
                             } else { // при вводе не первого числа - производятся вычисления
 
